@@ -2,7 +2,7 @@
 title: "Guía general de Javascript"
 lang: "es"
 tags: [javascript]
-image: js.png
+image: /assets/img/js.png
 hidden: false
 ---
 
