@@ -1,0 +1,36 @@
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'albizures'
+
+google-ID: 'UA-113899183-1'
+
+twitter: _albizures
+
+menu:
+# - {name: 'About', path: 'menu', url: 'about.html'}
+# - {name: 'Writing', path: 'menu', url: 'writing.html'}
+# - {name: 'Contact', path: 'menu', url: 'contact.html'}
+- {name: 'Github', external: true, path: '', url: 'https://www.github.com/albizures'}
+- {name: 'Twitter', external: true, path: '', url: 'https://twitter.com/_albizures'}
+- {name: 'Linkedin', external: true,path: '', url: 'http://www.linkedin.com/in/albizures/'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'github', footer_only: true, link: 'https://www.github.com/albizures'}
+- {icon: 'twitter', footer_only: true, link: 'https://twitter.com/_albizures'}
+- {icon: 'linkedin', footer_only: true, link: 'http://www.linkedin.com/in/albizures/'}
+- {icon: 'envelope', footer_only: false, link: 'mailto:jose@albizures.com'}
+- {icon: 'rss-square', footer_only: false, link: '/feed.xml'}
+# - {icon: 'rss-square', link: '/rss-feed.xml'}
+
+# Customize site text
+pagination:
+  next_page: 'Newer'
+  previous_page: 'Older'
+
+sharing_button_prompt: 'Feel free to share!'
+
+related_posts: 'You may also enjoy:'
+
+post_date_prefix: 'Written on'

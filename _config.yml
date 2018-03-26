@@ -1,0 +1,39 @@
+# Site Build Settings
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      hidden: true
+      categories: "post"
+      author: "Jose Albizures"
+      layout: post
+  -
+    scope:
+      hidden: true
+    values:
+      sitemap: false
+  
+
+# jekyll-paginate configuration
+paginate:            5
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:               'Jose Albizures'
+description:         'Web Developer'
+author:              'Jose Albizures'
+sass:
+  style: compressed
+  sass_dir: _sass
+# show_drafts: true
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
