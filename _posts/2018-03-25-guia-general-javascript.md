@@ -4,6 +4,7 @@ lang: "es"
 tags: [javascript]
 image: /assets/img/js.png
 hidden: false
+lang: "es"
 ---
 
 > Esta guía sigue en desarrollo, planeo sacar un artículo por semana como mínimo
@@ -25,14 +26,14 @@ Una guía exhaustiva de javascript, está guía solo es una vista general del ec
 ![Un lenguaje para dominarlos a todos](/assets/img/lord-of-js.png)
 
 
-### 1. Conceptos esenciales
+### 1. [Conceptos esenciales]({% post_url 2018-03-26-guia-general-javascript-conceptos-esenciales %})
   1. Tipos
   2. Funciones
   3. Coerción
   4. Scope y closures
-  5. var, let y const TK
-  6. this TK
-  7. Operador new TK
+  5. var, let y const
+  6. this
+  7. Operador new
   8. use strict
   9. Promesas
   10. Manipulando Arrays
