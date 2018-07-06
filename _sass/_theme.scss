@@ -55,6 +55,10 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   color: #333;
   margin-bottom: 0.5rem;
+
+  & + img {
+    margin-top: 1rem;
+  }
 }
 
 a {
