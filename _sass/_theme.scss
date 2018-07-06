@@ -54,10 +54,6 @@ h6 {
   font-family: 'Montserrat', sans-serif;
   color: #333;
   margin-bottom: 0.5rem;
-
-  & + img {
-    margin-top: 1rem;
-  }
 }
 
 a {
@@ -74,6 +70,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  margin-top: 1rem;
 }
 
 blockquote {
