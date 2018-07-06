@@ -17,10 +17,13 @@
   Base
 */
 
+html {
+  font-size: 19px;
+}
+
 body {
-  font-family: 'Zilla Slab', serif;
-  font-size: 24px;
-  color: #515151;
+  font-family: 'ubuntu', serif;
+  color: black;
   line-height: 1.75rem;
   font-weight: lighter;
 }
@@ -42,15 +45,16 @@ h1 {
   }
 }
 
-h1 
+h1,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333;
+  margin-bottom: 0.5rem;
 }
 
 a {
@@ -79,6 +83,10 @@ blockquote {
 
 hr {
   border-top: 1px solid #ccc;
+}
+
+p {
+  margin-top: 0.5rem
 }
 
 /*
@@ -123,12 +131,9 @@ hr {
 
   &-subtitle {
     color: #999;
+    font-size: 1.4rem;
   }
 }
-
-/*
-  Thumbnail
-*/
 
 .thumbnail-container {
   max-width: 100%;
@@ -136,9 +141,11 @@ hr {
   border-radius: 5px;
   margin-bottom: 25px;
 }
-/*
-  Post
-*/
+
+.post-extract {
+  font-size: 1rem;
+}
+
 
 .post {
   &-container {
@@ -156,7 +163,7 @@ hr {
 }
 
 .posts {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   padding: 0px;
   list-style: none;
 }
@@ -174,10 +181,13 @@ hr {
 
   &-posts {
     padding-left: 0px;
-    list-style: none;
   
     a {
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   
@@ -314,7 +324,7 @@ pre {
 /* Pygments via Jekyll */
 
 .highlight {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   border-radius: 4px;
 
   pre {
@@ -540,7 +550,7 @@ h6 {
     padding-right: 15px;
     opacity: 0;
     transition: 0.2s opacity;
-    // font-style: italic;
+    font-style: italic;
     // transform: scale(0.7);
     transform-origin: 50%;
     text-decoration: none;

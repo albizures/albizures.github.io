@@ -13,6 +13,7 @@ lang: "es"
 Javascript es un lenguaje dinámicamente tipado (dynamic typing), esto significa que javascript no necesita que se le especifique el tipo de dato al definir una variable.[^1]
 
 Por ejemplo:
+
 ```js
 var foo = 1
 var bar = 'Hello world'
